@@ -7,7 +7,7 @@ itself.
 
 ## Status
 
-🚧 In progress — see [docs/decisions.md](docs/decisions.md) for open
+In progress — see [docs/decisions.md](docs/decisions.md) for open
 decisions and [docs/architecture.md](docs/architecture.md) for the current
 architecture.
 
@@ -74,10 +74,10 @@ in a later step once `etl/glue_job.py` is finalized (see
 
 ## Roadmap
 
-- [ ] Week 1 — AWS fundamentals, account setup, manual ingestion test
-- [ ] Week 2 — Automate ingestion, build Glue crawler + ETL job
-- [ ] Week 3 — Athena queries, dashboard
-- [ ] Week 4 — Terraform for full infra, docs, demo
+-  Week 1 — AWS fundamentals, account setup, manual ingestion test
+-  Week 2 — Automate ingestion, build Glue crawler + ETL job
+-  Week 3 — Athena queries, dashboard
+-  Week 4 — Terraform for full infra, docs, demo
 
 ## License
 
