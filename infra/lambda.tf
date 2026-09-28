@@ -19,8 +19,8 @@ resource "aws_lambda_function" "ingestion" {
       # TODO: replace with SSM parameter / Secrets Manager references,
       # e.g. via aws_ssm_parameter data sources -- do not commit real
       # keys as plain Terraform variables.
-      ADZUNA_APP_ID  = "TBD"
-      ADZUNA_APP_KEY = "TBD"
+      ADZUNA_APP_ID  = var.adzuna_app_id
+      ADZUNA_APP_KEY = var.adzuna_app_key
       ADZUNA_COUNTRY = "us"
       ADZUNA_QUERY   = "software engineer"
     }
